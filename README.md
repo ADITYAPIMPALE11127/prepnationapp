@@ -1,4 +1,9 @@
 # 🚀 PrepNation - React Native Expo App
+### Important notice 
+  - "**Do not merge anything directly**
+  - **Always use npm i before starting to develop anything in the project**
+  - **Always create new branch and create a pull request**
+
 
 PrepNation is a React Native mobile application built using **Expo**. This project aims to provide an AI-driven interview experience.
 
