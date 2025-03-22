@@ -8,7 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <Navbar /> 
       <CustomButton 
-        style={{ width: 150, height: 50 }} 
+        style={{ width: 150, height: 60 }} 
         title="Click Me"
         useTouchableOpacity={true} 
         mode="contained"
