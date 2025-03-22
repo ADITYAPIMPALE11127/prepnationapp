@@ -1,18 +1,18 @@
 # 🚀 PrepNation - React Native Expo App
-### Important notice 
-  - "**Do not merge anything directly**
-  - **Always use npm i before starting to develop anything in the project**
-  - **Always create new branch and create a pull request**
 
+### Important Notice
+- **Don't merge anything directly**
+- **Always run `npm i` before working on the project**
+- **Always create a new branch and make a pull request**
 
-PrepNation is a React Native mobile application built using **Expo**. This project aims to provide an AI-driven interview experience.
+PrepNation is a React Native mobile app built with **Expo**. This project helps provide an AI-driven interview experience.
 
 ---
 
 ## 📌 **Getting Started**
 
-### **1. Prerequisites**
-Before running the app, ensure you have the following installed:
+### **1. What You Need Before Starting**
+Make sure you have these installed:
 
 - **Node.js** (Latest LTS) → [Download](https://nodejs.org/)
 - **Expo CLI** → Install it globally using:
@@ -24,7 +24,7 @@ Before running the app, ensure you have the following installed:
 
 ---
 
-### **2. Clone the Repository**
+### **2. Download the Project**
 ```sh
 git clone https://github.com/your-username/prepnation.git
 cd prepnation
@@ -32,21 +32,21 @@ cd prepnation
 
 ---
 
-## 🚀 **Running the App**
+## 🚀 **Run the App**
 
-### **A. Run on Expo (Using Metro Bundler)**
+### **A. Run on Your Phone with Expo**
 ```sh
-npm install   # Install dependencies
+npm install   # Install necessary packages
 npm start     # Start Expo development server
 ```
 - This will open **Metro Bundler** in your browser.
-- You can scan the QR code with the **Expo Go** app on your phone to run the app.
+- Scan the QR code with the **Expo Go** app on your phone to run the app.
 
 ---
 
 ### **B. Run on Android Emulator (Android Studio)**
-1. Open **Android Studio** → Run an **Android Emulator**.
-2. In the project directory, run:
+1. Open **Android Studio** and start an **Android Emulator**.
+2. In your project folder, run:
    ```sh
    npm run android
    ```
@@ -54,43 +54,69 @@ npm start     # Start Expo development server
    ```sh
    expo run:android
    ```
-3. The app will now launch in your Android Emulator.
+3. The app will now open in the emulator.
 
 ---
 
-## 🖀 **Versioning with New Branch (Avoid Merging Directly)**
+## 🗀 **How to Work with Branches (Don't Merge Directly)**
 
 ### **1. Create a New Branch**
 ```sh
 git checkout -b feature-branch-name
 ```
 
-### **2. Make Changes & Commit**
+### **2. Make Changes & Save Them**
 ```sh
 git add .
-git commit -m "Added new feature"
+git commit -m "Added a new feature"
 ```
 
-### **3. Push Changes to GitHub**
+### **3. Upload Your Changes to GitHub**
 ```sh
 git push origin feature-branch-name
 ```
 
-### **4. Create a Pull Request (PR)**
+### **4. Submit Your Work for Review (Pull Request)**
 - Go to your **GitHub repository** → **Pull Requests** → **New Pull Request**.
-- Select **feature-branch-name** and request a merge into **main**.
+- Choose your **feature-branch-name** and request a merge into **main**.
+
+---
+
+## 📚 **How to Update Your Local Code with the Latest Master Changes**
+### **1. Switch to the Main Branch**
+```sh
+git checkout master
+```
+### **2. Get the Latest Updates from GitHub**
+```sh
+git pull origin master
+```
+### **3. If You Have Unfinished Work, Save It First**
+```sh
+git stash
+git pull origin master
+```
+Then restore your changes:
+```sh
+git stash pop
+```
+### **4. If You Need to Update Your Feature Branch with Master Changes**
+```sh
+git checkout feature-branch-name
+git merge master
+```
 
 ---
 
 ## 📄 **Best Practices**
 ✅ Always create a new branch for a feature.  
 ✅ Never push directly to `main`.  
-✅ Use meaningful commit messages.  
-✅ Review PRs before merging.  
+✅ Use simple and clear commit messages.  
+✅ Review and approve PRs before merging.  
 
 ---
 
-## 🎯 **Contributing**
+## 🎯 **Want to Contribute?**
 1. Fork the repo.
 2. Create a feature branch.
 3. Make changes and commit.
@@ -101,4 +127,3 @@ git push origin feature-branch-name
 ## 📝 **License**
 This project is licensed under the **MIT License**.
 
----
